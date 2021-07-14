@@ -15,10 +15,24 @@ img{
 
 }
 
+p{
+
+}
+
+.footer-paragraph {
+  width: auto;
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #logo{
 width: auto;
 max-width: 100%;
 height: auto;
+padding-bottom: 1rem;
 }
 
 section {
@@ -55,6 +69,20 @@ footer {
   margin-right: auto;
 }
 
+@media (min-width: 0px) and (max-width: 240px){
+    footer {
+        display : none;
+        visibility : hidden;
+    }
+}
+
+@media (min-height: 0px) and (max-height: 720px){
+    footer {
+        display : none;
+        visibility : hidden;
+    }
+}
+
 #footertext {
   margin-left: auto;
   margin-right: auto;
@@ -62,7 +90,7 @@ footer {
 }
 
 nav ul {
-  display: flex;
+    display: flex;
     list-style-type: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -76,6 +104,7 @@ nav ul {
     display: block;
     float: left;
     color: #909090;
+    font-weight: bold;
     text-decoration: none;
   }
 
@@ -83,6 +112,7 @@ nav ul {
     display: block;
     color: white;
     padding: 0 1rem;
+    font-weight: bold;
     text-decoration: none;
   }
 
