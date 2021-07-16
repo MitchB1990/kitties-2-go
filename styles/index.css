@@ -7,10 +7,23 @@ header {
   width: 100%;
   margin-top: auto;
   padding-top: 3rem;
-  padding-left: 5rem;
   padding-bottom: 3rem;
   justify-content: left;
   flex-wrap: wrap;
+}
+
+body {
+  display:flex; flex-direction:column; justify-content:center;
+  min-height:100%;
+  margin: 0 auto;
+}
+
+article {
+  display: block;
+  max-width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: visible;
 }
 
 h1 {
@@ -29,20 +42,40 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
-body{
+.h3blue {
+  font-size: 1rem;
+  color: #2c9ab7;
+}
+
+body {
   font-family: sans-serif;
   font-size: .75rem;
 }
 
-img{
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+#CowPhoto{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+p {
 
 }
 
-p{
-
+.blue {
+  font-style: normal;
+  font-weight: normal;
+  color: #2c9ab7;
 }
 
 .footer-paragraph {
@@ -54,34 +87,63 @@ p{
   margin-right: auto;
 }
 
+blockquote {
+    width: 100%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.maincap {
+
+  color: #2c9ab7;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.cowcap {
+  color: #000000;
+}
+
 #logo{
-width: auto;
-max-width: 100%;
-height: auto;
-padding-bottom: 1rem;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
 }
 
 section {
-  float: left;
-  width: 63%;
 }
 
 #main {
+  float: left;
+  width: 63%;
   width: 50%;
   padding-left: 5rem;
+  padding-bottom: 2rem;
+  max-width: 50%;
 }
 
 aside {
   float: right;
   margin: 0 1.5%;
-  width: 30%;
+  max-width: 30%;
+  padding-bottom: 2rem;
 }
 
 footer {
   clear: both;
   background-color: #393939;
   color: #909090;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -175,3 +237,7 @@ footer {
   .active {
     background-color: #04AA6D;
   }
+
+a {
+  text-decoration: none;
+}
