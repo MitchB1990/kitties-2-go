@@ -1,6 +1,6 @@
 
 header {
-  background-color: #2c9ab7;
+  background-color: #1A576B;
   clear: both;
   color: white;
   width: 100%;
@@ -51,7 +51,7 @@ h3 {
 
 .h3blue {
   font-size: 1rem;
-  color: #2c9ab7;
+  color: #1A576B;
 }
 
 body {
@@ -83,7 +83,7 @@ p {
 .blue {
   font-style: normal;
   font-weight: normal;
-  color: #2c9ab7;
+  color: #1A576B;
 }
 
 .footer-paragraph {
@@ -103,7 +103,7 @@ blockquote {
 
 .maincap {
 
-  color: #2c9ab7;
+  color: #1A576B;
   font-size: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
